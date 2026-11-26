@@ -1,0 +1,31 @@
+{
+  "name": "athan-realtime-globe",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24.2"
+  },
+  "scripts": {
+    "dev": "node scripts/schedules.ts && vite --host 127.0.0.1",
+    "build": "node scripts/schedules.ts && tsc --noEmit && vite build && node scripts/verify-release.ts",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "geography": "node scripts/geography.ts",
+    "coverage:seasons": "node scripts/coverage.ts",
+    "verify:release": "node scripts/verify-release.ts",
+    "preview": "vite preview --host 127.0.0.1"
+  },
+  "dependencies": {
+    "adhan": "4.4.6",
+    "three": "0.183.2"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.58.2",
+    "@types/node": "24.10.1",
+    "@types/three": "0.183.1",
+    "typescript": "5.9.3",
+    "vite": "7.3.8",
+    "vitest": "4.1.12"
+  }
+}
