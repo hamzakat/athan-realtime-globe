@@ -1,5 +1,13 @@
 # Athan Realtime Globe
 
+**English** | [العربية](README.ar.md)
+
+[Visit the live globe](https://hamzakat.github.io/athan-realtime-globe/)
+
+Inspired by [“The Sound of Azaan Constantly Echoes Around the Globe”](https://albalagh.net/general/the-sound-of-azaan-constantly-echoes-around-the-globe), this project brings to life the idea that the call to prayer travels across the world as different places reach their prayer times. An interactive globe makes that shared rhythm visible, inviting visitors to follow it and explore the cities along the way.
+
+![The Athan Realtime Globe showing prayer events across the world](assets/screenshot.png)
+
 Watch the previous 24 hours of calculated prayer starts, then keep the globe open for live Athan events. Drag to rotate, use the wheel or pinch to zoom, and select a city for its local time. The calculation method applies worldwide and defaults to Umm al-Qura.
 
 ## Run locally
